@@ -4,7 +4,7 @@ CATEGORIES=		games
 MASTER_SITES=   GH
 PKGNAMESUFFIX=  -dev
 
-MAINTAINER=	amdmi3@FreeBSD.org
+MAINTAINER=	nope@nothere
 COMMENT=	Space exploration and combat game similar to Escape Velocity
 WWW=		https://endless-sky.github.io/
 
