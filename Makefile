@@ -1,5 +1,5 @@
 PORTNAME=	endless-sky
-DISTVERSION=	g20260502
+DISTVERSION=	g20260503
 CATEGORIES=		games
 MASTER_SITES=   GH
 PKGNAMESUFFIX=  -dev
@@ -23,7 +23,7 @@ LIB_DEPENDS=	libpng.so:graphics/png \
 USE_GITHUB=		yes
 GH_ACCOUNT=		endless-sky
 GH_PROJECT=		endless-sky
-GH_TAGNAME=		dfc141a77ae96aaa3b3781fc8a81d6bdd01ab33e
+GH_TAGNAME=		040c7b054afb873138e055efa097726765f04482
 
 USES=			cmake compiler:c++11-lang gl jpeg openal pkgconfig sdl
 USE_SDL=		sdl2
@@ -31,8 +31,6 @@ USE_GL=			gl glew
 CMAKE_OFF=		ES_USE_VCPKG \
 				CMAKE_CXX_SCAN_FOR_MODULES
 CMAKE_ARGS=		-DCMAKE_INSTALL_DOCDIR="${DOCSDIR}"
-
-#LDFLAGS_i386=	-Wl,-znotext
 
 CONFLICTS=		endless-sky
 
