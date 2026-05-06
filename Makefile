@@ -1,5 +1,5 @@
-PORTNAME=	endless-sky
-DISTVERSION=	g20260503
+PORTNAME=		endless-sky
+DISTVERSION=	g20260505
 CATEGORIES=		games
 MASTER_SITES=   GH
 PKGNAMESUFFIX=  -dev
@@ -8,9 +8,9 @@ MAINTAINER=	nope@nothere
 COMMENT=	Space exploration and combat game similar to Escape Velocity
 WWW=		https://endless-sky.github.io/
 
-LICENSE=	GPLv3+ GPLv2 CC-BY-2.0 CC-BY-3.0 CC-BY-4.0 CC-BY-SA-3.0 CC-BY-SA-4.0 PD CC0-1.0
-LICENSE_COMB=	multi
-LICENSE_FILE=	${WRKSRC}/copyright
+LICENSE=				GPLv3+ GPLv2 CC-BY-2.0 CC-BY-3.0 CC-BY-4.0 CC-BY-SA-3.0 CC-BY-SA-4.0 PD CC0-1.0
+LICENSE_COMB=			multi
+LICENSE_FILE=			${WRKSRC}/copyright
 LICENSE_FILE_GPLv3+ =	${WRKSRC}/license.txt
 
 LIB_DEPENDS=	libpng.so:graphics/png \
@@ -23,7 +23,7 @@ LIB_DEPENDS=	libpng.so:graphics/png \
 USE_GITHUB=		yes
 GH_ACCOUNT=		endless-sky
 GH_PROJECT=		endless-sky
-GH_TAGNAME=		040c7b054afb873138e055efa097726765f04482
+GH_TAGNAME=		2d14be69937685d9b52df1ea3270cacab1f1cfcc
 
 USES=			cmake compiler:c++11-lang gl jpeg openal pkgconfig sdl
 USE_SDL=		sdl2
