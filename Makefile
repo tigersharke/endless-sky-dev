@@ -1,12 +1,12 @@
 PORTNAME=		endless-sky
-DISTVERSION=	g20260505
+DISTVERSION=	g20260513
 CATEGORIES=		games
 MASTER_SITES=   GH
 PKGNAMESUFFIX=  -dev
 
-MAINTAINER=	nope@nothere
-COMMENT=	Space exploration and combat game similar to Escape Velocity
-WWW=		https://endless-sky.github.io/
+MAINTAINER=		nope@nothere
+COMMENT=		Space exploration and combat game similar to Escape Velocity
+WWW=			https://endless-sky.github.io/
 
 LICENSE=				GPLv3+ GPLv2 CC-BY-2.0 CC-BY-3.0 CC-BY-4.0 CC-BY-SA-3.0 CC-BY-SA-4.0 PD CC0-1.0
 LICENSE_COMB=			multi
@@ -20,27 +20,28 @@ LIB_DEPENDS=	libpng.so:graphics/png \
 				libavif.so:graphics/libavif \
 				libFLAC++.so:audio/flac
 
+USES=			cmake compiler:c++11-lang gl jpeg openal pkgconfig sdl
 USE_GITHUB=		yes
 GH_ACCOUNT=		endless-sky
 GH_PROJECT=		endless-sky
-GH_TAGNAME=		2d14be69937685d9b52df1ea3270cacab1f1cfcc
+GH_TAGNAME=		baf3c09cb869cec3b8cc5eb0799e603568d87314
 
-USES=			cmake compiler:c++11-lang gl jpeg openal pkgconfig sdl
 USE_SDL=		sdl2
 USE_GL=			gl glew
 CMAKE_OFF=		ES_USE_VCPKG \
 				CMAKE_CXX_SCAN_FOR_MODULES
-CMAKE_ARGS=		-DCMAKE_INSTALL_DOCDIR="${DOCSDIR}"
+CMAKE_ARGS=		-DCMAKE_INSTALL_DOCDIR="${DOCSDIR}" \
+				-DCMAKE_INSTALL_PREFIX="/usr/local"
 
 CONFLICTS=		endless-sky
 
-PORTDATA=	*
-PORTDOCS=	*
+OPTIONS_DEFINE=			DEBUG DOCS TEST
 
-OPTIONS_DEFINE=	DOCS TEST
-
-TEST_CMAKE_BOOL=	BUILD_TESTING
-TEST_BUILD_DEPENDS=	catch2>=0:devel/catch2
+DEBUG_DESC=				Select Debug build by -DCMAKE_BUILD_TYPE=Debug
+DEBUG_ON_CMAKE_ARGS+=	-DCMAKE_BUILD_TYPE="Debug"
+DEBUG_OFF_CMAKE_ARGS+=	-DCMAKE_BUILD_TYPE="Release"
+TEST_CMAKE_BOOL=		BUILD_TESTING
+TEST_BUILD_DEPENDS=		catch2>=0:devel/catch2
 
 post-build:
 	@${REINPLACE_CMD} -e 's|/usr/local/|${PREFIX}/|; s|share/games|share|' \
