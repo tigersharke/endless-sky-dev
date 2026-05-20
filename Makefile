@@ -1,5 +1,5 @@
 PORTNAME=		endless-sky
-DISTVERSION=	g20260513
+DISTVERSION=	g20260517
 CATEGORIES=		games
 MASTER_SITES=   GH
 PKGNAMESUFFIX=  -dev
@@ -13,21 +13,22 @@ LICENSE_COMB=			multi
 LICENSE_FILE=			${WRKSRC}/copyright
 LICENSE_FILE_GPLv3+ =	${WRKSRC}/license.txt
 
-LIB_DEPENDS=	libpng.so:graphics/png \
-				libmad.so:audio/libmad \
+LIB_DEPENDS=	libmad.so:audio/libmad \
 				libuuid.so:misc/libuuid \
 				libminizip.so:archivers/minizip \
 				libavif.so:graphics/libavif \
-				libFLAC++.so:audio/flac
+				libpng16.so:graphics/png \
+				libFLAC++.so:audio/flac \
+				libSDL2-2.0.so:devel/sdl20
 
-USES=			cmake compiler:c++11-lang gl jpeg openal pkgconfig sdl
+USES=			cmake compiler:c++11-lang jpeg openal pkgconfig gl #sdl
 USE_GITHUB=		yes
 GH_ACCOUNT=		endless-sky
 GH_PROJECT=		endless-sky
-GH_TAGNAME=		baf3c09cb869cec3b8cc5eb0799e603568d87314
+GH_TAGNAME=		546a68faa605459900363d2b445e9642494611d0
 
-USE_SDL=		sdl2
-USE_GL=			gl glew
+#USE_SDL=		sdl2
+USE_GL=			opengl glew
 CMAKE_OFF=		ES_USE_VCPKG \
 				CMAKE_CXX_SCAN_FOR_MODULES
 CMAKE_ARGS=		-DCMAKE_INSTALL_DOCDIR="${DOCSDIR}" \
