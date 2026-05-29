@@ -1,5 +1,5 @@
 PORTNAME=		endless-sky
-DISTVERSION=	g20260519
+DISTVERSION=	g20260528
 CATEGORIES=		games
 MASTER_SITES=   GH
 PKGNAMESUFFIX=  -dev
@@ -25,7 +25,7 @@ USES=			cmake compiler:c++11-lang jpeg openal pkgconfig gl #sdl
 USE_GITHUB=		yes
 GH_ACCOUNT=		endless-sky
 GH_PROJECT=		endless-sky
-GH_TAGNAME=		fb1421e8dfc7a9ef33bee1e87ca0b1a2c466ad3f
+GH_TAGNAME=		52eb37a88fb0956ff7629e5d334b696f1ad13a16
 
 #USE_SDL=		sdl2
 USE_GL=			opengl glew

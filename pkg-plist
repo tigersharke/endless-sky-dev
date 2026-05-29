@@ -3276,7 +3276,9 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/beach14.jpg
 %%DATADIR%%/images/land/beach15.jpg
 %%DATADIR%%/images/land/beach18.jpg
+%%DATADIR%%/images/land/beach19.jpg
 %%DATADIR%%/images/land/beach2.jpg
+%%DATADIR%%/images/land/beach20.jpg
 %%DATADIR%%/images/land/beach3.jpg
 %%DATADIR%%/images/land/beach4.jpg
 %%DATADIR%%/images/land/beach5.jpg
@@ -3368,6 +3370,8 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/desert15.jpg
 %%DATADIR%%/images/land/desert19.jpg
 %%DATADIR%%/images/land/desert2.jpg
+%%DATADIR%%/images/land/desert20.jpg
+%%DATADIR%%/images/land/desert21.jpg
 %%DATADIR%%/images/land/desert3.jpg
 %%DATADIR%%/images/land/desert4.jpg
 %%DATADIR%%/images/land/desert5.jpg
@@ -3389,6 +3393,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/dune4.jpg
 %%DATADIR%%/images/land/dune5.jpg
 %%DATADIR%%/images/land/dune6-harro.jpg
+%%DATADIR%%/images/land/dune7.jpg
 %%DATADIR%%/images/land/earthrise.jpg
 %%DATADIR%%/images/land/enceladus_1.jpg
 %%DATADIR%%/images/land/enceladus_2.jpg
@@ -3431,6 +3436,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/fog11.jpg
 %%DATADIR%%/images/land/fog12.png
 %%DATADIR%%/images/land/fog15.jpg
+%%DATADIR%%/images/land/fog16.jpg
 %%DATADIR%%/images/land/fog2.jpg
 %%DATADIR%%/images/land/fog3.jpg
 %%DATADIR%%/images/land/fog4.jpg
@@ -3447,6 +3453,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/forest13.jpg
 %%DATADIR%%/images/land/forest14.jpg
 %%DATADIR%%/images/land/forest15.jpg
+%%DATADIR%%/images/land/forest16.jpg
 %%DATADIR%%/images/land/forest2.jpg
 %%DATADIR%%/images/land/forest3.jpg
 %%DATADIR%%/images/land/forest4.jpg
@@ -3464,6 +3471,9 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/hills10.jpg
 %%DATADIR%%/images/land/hills11.jpg
 %%DATADIR%%/images/land/hills13.jpg
+%%DATADIR%%/images/land/hills14.jpg
+%%DATADIR%%/images/land/hills15.jpg
+%%DATADIR%%/images/land/hills16.jpg
 %%DATADIR%%/images/land/hills2.jpg
 %%DATADIR%%/images/land/hills3.jpg
 %%DATADIR%%/images/land/hills4.jpg
@@ -3482,6 +3492,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/lava13.jpg
 %%DATADIR%%/images/land/lava14.png
 %%DATADIR%%/images/land/lava15.jpg
+%%DATADIR%%/images/land/lava16.jpg
 %%DATADIR%%/images/land/lava2.jpg
 %%DATADIR%%/images/land/lava3.jpg
 %%DATADIR%%/images/land/lava4.jpg
@@ -3537,6 +3548,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/mountain4.jpg
 %%DATADIR%%/images/land/mountain41.jpg
 %%DATADIR%%/images/land/mountain45.jpg
+%%DATADIR%%/images/land/mountain46.jpg
 %%DATADIR%%/images/land/mountain5.jpg
 %%DATADIR%%/images/land/mountain6.jpg
 %%DATADIR%%/images/land/mountain7.jpg
@@ -3682,6 +3694,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/snow38.jpg
 %%DATADIR%%/images/land/snow39.jpg
 %%DATADIR%%/images/land/snow4.jpg
+%%DATADIR%%/images/land/snow40.jpg
 %%DATADIR%%/images/land/snow5.jpg
 %%DATADIR%%/images/land/snow6.jpg
 %%DATADIR%%/images/land/snow7.jpg
@@ -3754,6 +3767,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/station8.jpg
 %%DATADIR%%/images/land/station9.jpg
 %%DATADIR%%/images/land/treser.png
+%%DATADIR%%/images/land/tundra1.jpg
 %%DATADIR%%/images/land/turra.png
 %%DATADIR%%/images/land/valley0.jpg
 %%DATADIR%%/images/land/valley1.jpg
@@ -3796,6 +3810,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/land/water30.jpg
 %%DATADIR%%/images/land/water31.jpg
 %%DATADIR%%/images/land/water32.jpg
+%%DATADIR%%/images/land/water33.jpg
 %%DATADIR%%/images/land/water4.jpg
 %%DATADIR%%/images/land/water5.jpg
 %%DATADIR%%/images/land/water6.jpg
