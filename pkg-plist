@@ -44,6 +44,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/data/coalition/heliarch intro.txt
 %%DATADIR%%/data/coalition/lunarium intro.txt
 %%DATADIR%%/data/commodities.txt
+%%DATADIR%%/data/confusions.txt
 %%DATADIR%%/data/dialog phrases.txt
 %%DATADIR%%/data/drak/drak culture conversations.txt
 %%DATADIR%%/data/drak/drak missions.txt
@@ -178,7 +179,11 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/data/stars.txt
 %%DATADIR%%/data/starts.txt
 %%DATADIR%%/data/substitutions.txt
+%%DATADIR%%/data/successors/predecessors.txt
 %%DATADIR%%/data/successors/successor 1 prologue.txt
+%%DATADIR%%/data/successors/successor 2 ghosts aqrabe.txt
+%%DATADIR%%/data/successors/successor 2 ghosts myurej.txt
+%%DATADIR%%/data/successors/successor 2 ghosts.txt
 %%DATADIR%%/data/successors/successor culture conversations.txt
 %%DATADIR%%/data/successors/successor events.txt
 %%DATADIR%%/data/successors/successor fleets.txt
@@ -2294,6 +2299,9 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/effect/gridfire hit+2.png
 %%DATADIR%%/images/effect/gridfire hit+3.png
 %%DATADIR%%/images/effect/gridfire hit+4.png
+%%DATADIR%%/images/effect/hasur afterburner+0.png
+%%DATADIR%%/images/effect/hasur afterburner+1.png
+%%DATADIR%%/images/effect/hasur afterburner+2.png
 %%DATADIR%%/images/effect/heaver hyperspace hit^00.png
 %%DATADIR%%/images/effect/heaver hyperspace hit^01.png
 %%DATADIR%%/images/effect/heaver hyperspace hit^02.png
@@ -2492,6 +2500,8 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/effect/ka'het flare/small+3.png
 %%DATADIR%%/images/effect/ka'het flare/small+4.png
 %%DATADIR%%/images/effect/ka'het flare/small+5.png
+%%DATADIR%%/images/effect/kis impact^0.png
+%%DATADIR%%/images/effect/kis impact^1.png
 %%DATADIR%%/images/effect/korath afterburner+0.png
 %%DATADIR%%/images/effect/korath afterburner+1.png
 %%DATADIR%%/images/effect/korath afterburner+2.png
@@ -2685,6 +2695,8 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/effect/point defense hit+0.png
 %%DATADIR%%/images/effect/point defense hit+1.png
 %%DATADIR%%/images/effect/point defense hit+2.png
+%%DATADIR%%/images/effect/predecessor flare+0.png
+%%DATADIR%%/images/effect/predecessor flare+1.png
 %%DATADIR%%/images/effect/proton impact+0.png
 %%DATADIR%%/images/effect/proton impact+1.png
 %%DATADIR%%/images/effect/proton impact+2.png
@@ -2736,6 +2748,10 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/effect/pwaveflare+3.png
 %%DATADIR%%/images/effect/quarg anti missile+0.png
 %%DATADIR%%/images/effect/quarg anti missile+1.png
+%%DATADIR%%/images/effect/queru afterburner+0.png
+%%DATADIR%%/images/effect/queru afterburner+1.png
+%%DATADIR%%/images/effect/queru afterburner+2.png
+%%DATADIR%%/images/effect/queru afterburner+3.png
 %%DATADIR%%/images/effect/railspark^0.png
 %%DATADIR%%/images/effect/railspark^1.png
 %%DATADIR%%/images/effect/railspark^2.png
@@ -2777,6 +2793,11 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/effect/repulsor impact+1.png
 %%DATADIR%%/images/effect/repulsor impact+2.png
 %%DATADIR%%/images/effect/repulsor impact+3.png
+%%DATADIR%%/images/effect/resja afterburner+0.png
+%%DATADIR%%/images/effect/resja afterburner+1.png
+%%DATADIR%%/images/effect/resja afterburner+2.png
+%%DATADIR%%/images/effect/resja afterburner+3.png
+%%DATADIR%%/images/effect/resja afterburner+4.png
 %%DATADIR%%/images/effect/scin flare/large^0.png
 %%DATADIR%%/images/effect/scin flare/large^1.png
 %%DATADIR%%/images/effect/scin flare/med^0.png
@@ -4033,6 +4054,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/outfit/hai tracker storage.png
 %%DATADIR%%/images/outfit/hai tracker.png
 %%DATADIR%%/images/outfit/hai williwaw.png
+%%DATADIR%%/images/outfit/harmonic keystone.png
 %%DATADIR%%/images/outfit/harvested aluminum.png
 %%DATADIR%%/images/outfit/harvested copper.png
 %%DATADIR%%/images/outfit/harvested gold.png
@@ -4055,6 +4077,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/outfit/heliarch attractor.png
 %%DATADIR%%/images/outfit/heliarch license.png
 %%DATADIR%%/images/outfit/heliarch repulsor.png
+%%DATADIR%%/images/outfit/high houses license.png
 %%DATADIR%%/images/outfit/hion.png
 %%DATADIR%%/images/outfit/holovid zone.png
 %%DATADIR%%/images/outfit/horizon grappler.png
@@ -4341,6 +4364,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/outfit/quarg skylance.png
 %%DATADIR%%/images/outfit/quarg stratospear.png
 %%DATADIR%%/images/outfit/quark reactor.png
+%%DATADIR%%/images/outfit/radiant shield shunt.png
 %%DATADIR%%/images/outfit/radiative lamina.png
 %%DATADIR%%/images/outfit/railgun h2h.png
 %%DATADIR%%/images/outfit/railgun.png
@@ -4676,6 +4700,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/planet/earth.png
 %%DATADIR%%/images/planet/europa-b.png
 %%DATADIR%%/images/planet/europa.png
+%%DATADIR%%/images/planet/exotic-metal-garden.png
 %%DATADIR%%/images/planet/fog0-b.png
 %%DATADIR%%/images/planet/fog0.png
 %%DATADIR%%/images/planet/forest0-b.png
@@ -4893,6 +4918,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/planet/saturn.png
 %%DATADIR%%/images/planet/sheragi_postverta.png
 %%DATADIR%%/images/planet/sheragi_postverta_2.png
+%%DATADIR%%/images/planet/station predecessor 1.png
 %%DATADIR%%/images/planet/station successor 1.png
 %%DATADIR%%/images/planet/station successor 2.png
 %%DATADIR%%/images/planet/station successor 3.png
@@ -5247,6 +5273,9 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/projectile/hionfrag+0.png
 %%DATADIR%%/images/projectile/hionfrag+1.png
 %%DATADIR%%/images/projectile/hionfrag+2.png
+%%DATADIR%%/images/projectile/iasa+0.png
+%%DATADIR%%/images/projectile/iasa+1.png
+%%DATADIR%%/images/projectile/iasa+2.png
 %%DATADIR%%/images/projectile/inhibitor+0.png
 %%DATADIR%%/images/projectile/inhibitor+1.png
 %%DATADIR%%/images/projectile/inhibitor+2.png
@@ -5275,6 +5304,9 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/projectile/ionic turret+6.png
 %%DATADIR%%/images/projectile/irate.png
 %%DATADIR%%/images/projectile/javelin.png
+%%DATADIR%%/images/projectile/kis+0.png
+%%DATADIR%%/images/projectile/kis+1.png
+%%DATADIR%%/images/projectile/kis+2.png
 %%DATADIR%%/images/projectile/korath inferno+0.png
 %%DATADIR%%/images/projectile/korath inferno+1.png
 %%DATADIR%%/images/projectile/korath inferno+2.png
@@ -5935,6 +5967,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ship/dropship.png
 %%DATADIR%%/images/ship/earth shaper.png
 %%DATADIR%%/images/ship/echo-galleon.png
+%%DATADIR%%/images/ship/ejniisde-khora.png
 %%DATADIR%%/images/ship/ejniisde.png
 %%DATADIR%%/images/ship/ember waste node/ember waste node-00.png
 %%DATADIR%%/images/ship/ember waste node/ember waste node-01.png
@@ -6094,6 +6127,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ship/hailstone.png
 %%DATADIR%%/images/ship/hallucination-0.png
 %%DATADIR%%/images/ship/hallucination-1.png
+%%DATADIR%%/images/ship/hasur vowsworn.png
 %%DATADIR%%/images/ship/hauler i.png
 %%DATADIR%%/images/ship/hauler ii.png
 %%DATADIR%%/images/ship/hauler iii.png
@@ -6257,6 +6291,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ship/quarg lindwyrm.png
 %%DATADIR%%/images/ship/quarg wardragon.png
 %%DATADIR%%/images/ship/quarg wyvern.png
+%%DATADIR%%/images/ship/queru luminous gaze.png
 %%DATADIR%%/images/ship/quicksilver.png
 %%DATADIR%%/images/ship/racing flivver.png
 %%DATADIR%%/images/ship/rai-alorej.png
@@ -6264,6 +6299,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ship/rainmaker.png
 %%DATADIR%%/images/ship/raven.png
 %%DATADIR%%/images/ship/remnant satellite.png
+%%DATADIR%%/images/ship/resja of the nine eyes.png
 %%DATADIR%%/images/ship/riptide.png
 %%DATADIR%%/images/ship/roost.png
 %%DATADIR%%/images/ship/saber.png
@@ -6380,6 +6416,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ship/tempest.png
 %%DATADIR%%/images/ship/tern.png
 %%DATADIR%%/images/ship/tubfalet.png
+%%DATADIR%%/images/ship/valkkyiara-khorasaqra.png
 %%DATADIR%%/images/ship/vanguard.png
 %%DATADIR%%/images/ship/vareti'het.png
 %%DATADIR%%/images/ship/venta.png
@@ -6444,6 +6481,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ship/void sprite/void sprite infant-27.png
 %%DATADIR%%/images/ship/void sprite/void sprite infant-28.png
 %%DATADIR%%/images/ship/void sprite/void sprite infant-29.png
+%%DATADIR%%/images/ship/vujlet modified.png
 %%DATADIR%%/images/ship/vujlet.png
 %%DATADIR%%/images/ship/vyrmeid/boomerang-00.png
 %%DATADIR%%/images/ship/vyrmeid/boomerang-01.png
@@ -6734,6 +6772,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/thumbnail/dropship.png
 %%DATADIR%%/images/thumbnail/earth shaper.png
 %%DATADIR%%/images/thumbnail/echo-galleon.png
+%%DATADIR%%/images/thumbnail/ejniisde-khora.png
 %%DATADIR%%/images/thumbnail/ejniisde.png
 %%DATADIR%%/images/thumbnail/ember waste node.png
 %%DATADIR%%/images/thumbnail/emeraldsword.png
@@ -6802,6 +6841,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/thumbnail/hai violin spider.png
 %%DATADIR%%/images/thumbnail/hai water bug.png
 %%DATADIR%%/images/thumbnail/hailstone.png
+%%DATADIR%%/images/thumbnail/hasur vowsworn.png
 %%DATADIR%%/images/thumbnail/hauler i.png
 %%DATADIR%%/images/thumbnail/hauler ii.png
 %%DATADIR%%/images/thumbnail/hauler iii.png
@@ -6922,12 +6962,14 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/thumbnail/quarg lindwyrm.png
 %%DATADIR%%/images/thumbnail/quarg wardragon.png
 %%DATADIR%%/images/thumbnail/quarg wyvern.png
+%%DATADIR%%/images/thumbnail/queru luminous gaze.png
 %%DATADIR%%/images/thumbnail/quicksilver.png
 %%DATADIR%%/images/thumbnail/racing flivver.png
 %%DATADIR%%/images/thumbnail/rai-alorej.png
 %%DATADIR%%/images/thumbnail/raider.png
 %%DATADIR%%/images/thumbnail/rainmaker.png
 %%DATADIR%%/images/thumbnail/raven.png
+%%DATADIR%%/images/thumbnail/resja of the nine eyes.png
 %%DATADIR%%/images/thumbnail/riptide.png
 %%DATADIR%%/images/thumbnail/roost.png
 %%DATADIR%%/images/thumbnail/saber.png
@@ -6966,12 +7008,14 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/thumbnail/tempest.png
 %%DATADIR%%/images/thumbnail/tern.png
 %%DATADIR%%/images/thumbnail/tubfalet.png
+%%DATADIR%%/images/thumbnail/valkkyiara-khorasaqra.png
 %%DATADIR%%/images/thumbnail/vanguard.png
 %%DATADIR%%/images/thumbnail/vareti'het.png
 %%DATADIR%%/images/thumbnail/venta.png
 %%DATADIR%%/images/thumbnail/veusade.png
 %%DATADIR%%/images/thumbnail/void sprite adult.png
 %%DATADIR%%/images/thumbnail/void sprite infant.png
+%%DATADIR%%/images/thumbnail/vujlet modified.png
 %%DATADIR%%/images/thumbnail/vujlet.png
 %%DATADIR%%/images/thumbnail/vyuir.png
 %%DATADIR%%/images/thumbnail/wardragon.png
@@ -7013,7 +7057,9 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ui/hail panel@1x.png
 %%DATADIR%%/images/ui/icon selected@1x.png
 %%DATADIR%%/images/ui/icon unselected@1x.png
+%%DATADIR%%/images/ui/in cargo@1x.png
 %%DATADIR%%/images/ui/info panel@1x.png
+%%DATADIR%%/images/ui/installed@1x.png
 %%DATADIR%%/images/ui/left edge@1x.png
 %%DATADIR%%/images/ui/map system@1x.png
 %%DATADIR%%/images/ui/map trade@1x.png
@@ -7194,6 +7240,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/sounds/gridfire~.wav
 %%DATADIR%%/sounds/guile pulse~.wav
 %%DATADIR%%/sounds/hai launch.wav
+%%DATADIR%%/sounds/harmonic jump.wav
 %%DATADIR%%/sounds/heaver hyperspace hit.wav
 %%DATADIR%%/sounds/heaver shard hit.wav
 %%DATADIR%%/sounds/heaver.wav
