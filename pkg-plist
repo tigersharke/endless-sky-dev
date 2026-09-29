@@ -4128,6 +4128,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/outfit/ka'het compact engine.png
 %%DATADIR%%/images/outfit/ka'het emp deployer.png
 %%DATADIR%%/images/outfit/ka'het grand restorer.png
+%%DATADIR%%/images/outfit/ka'het ion trap.png
 %%DATADIR%%/images/outfit/ka'het maeri engine.png
 %%DATADIR%%/images/outfit/ka'het mhd deployer.png
 %%DATADIR%%/images/outfit/ka'het mhd generator.png
@@ -5598,6 +5599,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/scene/Seasunset.jpg
 %%DATADIR%%/images/scene/army0.jpg
 %%DATADIR%%/images/scene/asteroid scene.jpg
+%%DATADIR%%/images/scene/builder cloud probe.jpg
 %%DATADIR%%/images/scene/buildings.jpg
 %%DATADIR%%/images/scene/busystreet.jpg
 %%DATADIR%%/images/scene/cave scene.png
