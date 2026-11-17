@@ -5,6 +5,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/data/_deprecated/deprecated events.txt
 %%DATADIR%%/data/_deprecated/deprecated outfits.txt
 %%DATADIR%%/data/_deprecated/deprecated ships.txt
+%%DATADIR%%/data/_ui/capacities.txt
 %%DATADIR%%/data/_ui/flight checks.txt
 %%DATADIR%%/data/_ui/help.txt
 %%DATADIR%%/data/_ui/interfaces.txt
@@ -7083,6 +7084,8 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ui/player tab@1x.png
 %%DATADIR%%/images/ui/pleiades.jpg
 %%DATADIR%%/images/ui/radar@1x.png
+%%DATADIR%%/images/ui/radio selected+@1x.png
+%%DATADIR%%/images/ui/radio unselected+@1x.png
 %%DATADIR%%/images/ui/red alert grayed@1x.png
 %%DATADIR%%/images/ui/red alert@1x.png
 %%DATADIR%%/images/ui/right edge@1x.png
