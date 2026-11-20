@@ -7064,6 +7064,7 @@ share/applications/io.github.endless_sky.endless_sky.desktop
 %%DATADIR%%/images/ui/info panel@1x.png
 %%DATADIR%%/images/ui/installed@1x.png
 %%DATADIR%%/images/ui/left edge@1x.png
+%%DATADIR%%/images/ui/lock@1x.png
 %%DATADIR%%/images/ui/map system@1x.png
 %%DATADIR%%/images/ui/map trade@1x.png
 %%DATADIR%%/images/ui/message log key@1x.png
